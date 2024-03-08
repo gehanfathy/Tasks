@@ -1,0 +1,63 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>sign in form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    h2 {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.but {
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px; 
+    cursor:pointer; 
+    padding:10px; 
+    border-radius:5px; 
+}
+
+.but:hover {
+    background-color:#45a049; 
+}
+    </style>
+</head>
+<body>
+    <h2 classr="text-center">Sign in</h2>
+    <form action="config.php" method="post">
+        <label for="email"></label>
+        <input type="email" class="input" id="email" name="email" placeholder="email" ><br>
+        
+        <label for="first name"></label>
+        <input type="text" class="input"  id="first name" name="first name" placeholder="first name"><br>
+        <label for="last name"></label>
+        <input type="text" class="input"  id="last name" name="last name" placeholder="last name"><br>
+        
+        <label for="password"></label>
+        <input type="password" class="input"  id="password" name="password" placeholder="password"><br>
+        
+        <input type="submit" class="'but" value="Sign in">
+    </form>
+</body>
+</html>
